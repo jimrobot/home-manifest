@@ -12,6 +12,6 @@
     <project path="vendor" name="sevsb/vendor" />
 
     <project path="admin" remote="osc" name="leedoo_group/bitrobot-admin" />
-    <project path="index" remote="osc" name="leedoo_group/bitrobot-index" />
+    <project path="home" remote="osc" name="leedoo_group/bitrobot-index" />
 </manifest>
 
