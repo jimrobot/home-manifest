@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="hub" fetch="ssh://git@github.com" review="ssh://git@github.com" />
-    <remote name="osc" fetch="ssh://git@git.oschina.net" review="ssh://git@gitee.com" />
 
     <default revision="master" remote="hub" sync-j="1" />
 
@@ -12,6 +11,6 @@
     <project path="vendor" name="sevsb/vendor" />
 
     <project path="admin" remote="hub" name="jimrobot/bitrobot-admin" />
-    <project path="home" remote="osc" name="leedoo/bitrobot" />
+    <project path="home" remote="hub" name="jimrobot/bitrobot-index" />
 </manifest>
 
